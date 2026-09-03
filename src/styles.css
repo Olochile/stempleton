@@ -160,6 +160,8 @@ footer p { margin: 0; }
 footer div { display: flex; gap: 24px; }
 footer div a { border-bottom: 1px solid transparent; }
 footer div a:hover { color: white; border-color: white; }
+.footer-links { flex-direction: column; gap: 12px; }
+.footer-links div { flex-wrap: wrap; gap: 18px; }
 
 @media (max-width: 900px) {
   .menu-button { display: block; z-index: 3; }
