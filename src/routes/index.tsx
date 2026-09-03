@@ -230,9 +230,19 @@ function HomePage() {
       <footer>
         <a className="wordmark footer-wordmark" href="#inicio"><span>A.J.</span> Stempleton</a>
         <p>Ficción política, historia alternativa y ciencia ficción.</p>
-        <div>
-          <a href="https://ajstempleton.wordpress.com/" target="_blank" rel="noreferrer">WordPress</a>
-          <a href="https://ajstempleton.com/" target="_blank" rel="noreferrer">Sitio original</a>
+        <div className="footer-links">
+          <div>
+            <a href="https://ajstempleton.wordpress.com/" target="_blank" rel="noreferrer">Bitácora / WordPress</a>
+            <a href="https://www.amazon.com/author/ajstempleton" target="_blank" rel="noreferrer">Amazon</a>
+            <a href="https://www.goodreads.com/author/show/52469486.A_J_Stempleton" target="_blank" rel="noreferrer">Goodreads</a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/ajstempleton/" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/ajstempleton/" target="_blank" rel="noreferrer">Facebook</a>
+            <a href="https://www.tiktok.com/@aj.stempleton" target="_blank" rel="noreferrer">TikTok</a>
+            <a href="https://wa.me/c/558596996479" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a href="mailto:aj@ajstempleton.com">Correo</a>
+          </div>
         </div>
         <small>© {new Date().getFullYear()} A.J. Stempleton</small>
       </footer>
